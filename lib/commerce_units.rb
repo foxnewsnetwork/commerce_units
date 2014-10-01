@@ -18,4 +18,10 @@ module CommerceUnits
   def self.dimensional_database=(some_sort_of_class)
     @dimensional_database = some_sort_of_class
   end
+  def self.nt(number, unit)
+    CommerceUnits::Value.from_params number: number, unit: unit
+  end
 end
+
+# A helpful alias, but if and only if it isn't already used
+CU = CommerceUnits unless defined?(CU)
