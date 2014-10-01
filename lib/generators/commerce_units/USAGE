@@ -1,0 +1,7 @@
+Description:
+  Generates the necessary files to get you up and running with Sorcery gem
+  
+Examples:
+  rails generate commerce_units:install
+
+    This will move the migration to create the commerce_units_dimensions table
