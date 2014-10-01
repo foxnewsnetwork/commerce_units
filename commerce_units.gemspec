@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Thomas Chen"]
   spec.email         = ["foxnewsnetwork@gmail.com"]
   spec.summary       = %q{Another ruby units library for doing dimensional math, this one to be used with rails, preferrably commerce-related apps}
-  spec.description   = %q{Another buy unit library.}
+  spec.description   = %q{Another ruby units library for doing dimensional math, this one to be used with rails, preferrably commerce-related apps}}
   spec.homepage      = "http://github.com/foxnewsnetwork/commerce_units"
   spec.license       = "MIT"
 
